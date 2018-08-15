@@ -1,12 +1,12 @@
 # MDwiki
 
-[首页](index.md)
+[首頁](index.md)
 
-[菜单]()
+[選單]()
 
-  * [子目录](api/user/index.md)
+  * [子目錄](api/user/index.md)
   - - - -
   * # 其它
-  * [其它分类](other/other.md)
+  * [其它分類](other/other.md)
 
 [README](README.md)

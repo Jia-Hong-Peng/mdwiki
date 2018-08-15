@@ -1,55 +1,55 @@
-快速开始
+快速開始
 ===========
 
-Note: 这是一个静态的基于mdwiki修改的markdown wiki，非常适合快速搭建简单的wiki系统，如果你想了解更多详情，请访问 [https://github.com/Dynalon/mdwiki/](https://github.com/Dynalon/mdwiki/)
+Note: 這是一個靜態的基於mdwiki修改的markdown wiki，非常適合快速搭建簡單的wiki系統，如果你想瞭解更多詳情，請訪問 [https://github.com/Dynalon/mdwiki/](https://github.com/Dynalon/mdwiki/)
 
-Markdown基本语法
+Markdown基本語法
 --------
 
-MDWiki 支持最基本的Markdown语法，同时支持直接书写HTML和语法高亮、表格.
+MDWiki 支持最基本的Markdown語法，同時支持直接書寫HTML和語法高亮、表格.
 
-一个简单的例子:
+一個簡單的例子:
 
 ```
-标题
+標題
 =======
 
-子标题
+子標題
 ----------
 
  * 列表
  * 列表
     1. sdf
-    2. 列表项
+    2. 列表項
 
-这里是一个连接 [fifsky](http://fifsky.com)，显示一个`tag`
+這裡是一個連接 [fifsky](http://fifsky.com)，顯示一個`tag`
 
-如果不想显示图片的话:
+如果不想顯示圖片的話:
 
-![图片Alt](http://placekitten.com/g/250/250)
+![圖片Alt](http://placekitten.com/g/250/250)
 
- > 这里是引用的内容
- > 这里是引用的内容
+ > 這裡是引用的內容
+ > 這裡是引用的內容
 
 ```
 
-创建链接
+創建鏈接
 -------
 
-站外链接:
+站外鏈接:
 
     [fifsky](http://www.fifsky.com)
 
-wiki链接:
+wiki鏈接:
 
     [Go to index](index.md)
 
-wiki链接会自动添加hash `#!` :
+wiki鏈接會自動添加hash `#!` :
 
 [Go to index](index.md)
 
 ##表格
-如果你想显示表格，可以参照下面的例子:
+如果你想顯示表格，可以參照下面的例子:
 
     | Tables        | Are           | Cool  |
     | ------------- |:-------------:| -----:|
@@ -65,9 +65,9 @@ wiki链接会自动添加hash `#!` :
 
 - - - -
 
-##语法高亮
+##語法高亮
 
-一段php语法高亮的例子:
+一段php語法高亮的例子:
 
     ```php
     <?php
@@ -89,7 +89,7 @@ render:
 ?>
 ```
 
-支持语言列表如下:
+支持語言列表如下:
 
 |Language       |Keyword      |
 |---------------|-------------|
@@ -119,7 +119,7 @@ render:
 
 ##公式
 
-你想要玩更高级的功能吗？你可以像下面这样
+你想要玩更高級的功能嗎？你可以像下面這樣
 
     $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 [gimmick: math]()    
